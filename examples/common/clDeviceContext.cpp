@@ -27,7 +27,6 @@
 #include "clDeviceContext.h"
 
 #if defined(_WIN32)
-    #define WIN32_LEAN_AND_MEAN
     #include <windows.h>
 #elif defined(__APPLE__)
     #include <OpenGL/OpenGL.h>
